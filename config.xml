@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.poet.dia_madre"
+    version   = "1.0.0">
+
+<name>Poet día de la madre</name>
+
+<description>
+	Aplicación para el día de la madre
+</description>
+
+<author href="http://www.facebook.com/renzotev" email="renzotelenta@gmail.com">
+	Renzo Telenta
+</author>
+
+<gap:splash src="splash.png" />
+<preference name="orientation" value="landscape" />
+<preference name="fullscreen" value="true" />
+
+<gap:platform name="android" />
+
+<gap:plugin name="org.apache.cordova.media" version="0.2.8" />
+
+<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+
+</widget>
